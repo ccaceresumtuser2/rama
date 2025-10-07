@@ -1,0 +1,18 @@
+target/
+# IDEs
+nbproject/private/
+build/
+dist/
+.nb-gradle/
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
