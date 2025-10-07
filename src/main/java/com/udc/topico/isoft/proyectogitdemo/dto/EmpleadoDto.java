@@ -76,4 +76,10 @@ public class EmpleadoDto {
         this.edad = Period.between(nacimiento, hoy).getYears();
         System.out.println("Edad: " + edad + " años");
     }
+    /**
+     * mostrar empleado
+     */
+    public void mostrar(){
+        System.out.println(this.toString());
+    }
 }
